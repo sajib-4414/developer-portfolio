@@ -1,12 +1,14 @@
 {
   "name": "developer-portfolio",
   "version": "1.0.0",
-  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
-  "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
-  "author": "Hanzla Tauqeer",
+  "description": "Software Developer Portfolio for Shamsul Arefin",
+  "homepage":"https://sajib-4414.github.io/developer-portfolio",
+  "author": "Shamsul Arefin",
   "license": "MIT",
   "scripts": {
+       "predeploy": "yarn run build",
+   "deploy": "next build && next export && gh-pages -d out",
+   "test":"yarn run build && next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -36,7 +38,8 @@
     "react-scripts": "^2.1.3",
     "react-typist": "^2.0.5",
     "reactstrap": "^8.9.0",
-    "sharp": "^0.31.3"
+    "sharp": "^0.31.3",
+    "gh-pages": "^5.0.0"
   },
   "devDependencies": {
     "@types/babel__core": "^7.20.0",
@@ -47,6 +50,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "2.8.4",
     "typescript": "^4.9.5"
   }

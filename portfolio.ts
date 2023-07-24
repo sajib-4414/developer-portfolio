@@ -42,7 +42,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Backend Software Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: 'lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building scalable and performant backend REST API services with Django and Nodejs'
@@ -93,7 +93,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'DevOps technologies',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: 'lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Integrated CI/CD Pipelines with Jenkins, AWS CodePipeline, Githubworkflow and Docker'),
         emoji(
@@ -150,7 +150,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Frontend development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: 'lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Highly skilled Frontend Developer with bold expertise in ReactJS and VueJS frameworks.'
@@ -228,7 +228,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Programmer Analyst Software Development Support',
     company: 'University of Regina',
-    companyLogo: '/img/icons/common/uregina icon.jpg',
+    companyLogo: 'img/icons/common/uregina icon.jpg',
     date: 'Jan 2022 – Present',
   descBullets:['Developed robust & scalable microservices with Django backend with CI/CD Pipelines.',
     'Contributed to a microservice-based application with Ruby on Rails, Vue.JS technologies',
@@ -239,7 +239,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer',
     company: 'Binate Solutions',
-    companyLogo: '/img/icons/common/binate-image.png',
+    companyLogo: 'img/icons/common/binate-image.png',
     date: 'Dec 2016 - Aug2019',
     descBullets:['Developed distributed microservice based backend applications with django to serve 10k products. ',
       'Utilized RabbitMQ, Celery, and Jenkins CI/CD Pipelines with Docker for optimized production deployment',
@@ -285,23 +285,23 @@ export const projects: ProjectType[] = [
 ];
 
 // export const feedbacks: FeedbackType[] = [
-//   {
-//     name: 'John Smith',
-//     feedback:
-//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-//   },
-//   {
-//     name: 'John Smith',
-//     feedback:
-//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-//   },
+//   // {
+//   //   name: 'John Smith',
+//   //   feedback:
+//   //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   // },
+//   // {
+//   //   name: 'John Smith',
+//   //   feedback:
+//   //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   // },
 // ];
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
-export const seoData: SEODataType = {
+export const seoData: SEODataType = { 
   title: 'Shamsul Arefin',
   description:
     'A passionate Full Stack Web and DevOps developer',

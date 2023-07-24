@@ -67,7 +67,7 @@ export type ExperienceType = {
   company: string;
   companyLogo: string;
   date: string;
-  desc: string;
+  desc?: string;
   descBullets?: string[];
 };
 
@@ -75,9 +75,10 @@ export type ExperienceType = {
 
 export type ProjectType = {
   name: string;
-  desc: string;
+  desc?: string;
   github?: string;
   link?: string;
+  descBullets?: string[];
 };
 
 // * FEEDBACK SECTION
