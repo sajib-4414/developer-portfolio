@@ -20,13 +20,14 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">
-                DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
-                ALL
+                I am Open to work, and interested to work into Backend, Fullstack based roles. Let's talk..
               </p>
-              <p className="text-white mt-3">{bio}</p>
+              {/*<p className="text-white mt-3">{bio}</p> this line fetches from github profile*/}
+              <p className="text-white mt-3">Passionate about solving real world problems with innovative Technologies</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
-                {location}
+                {/*{location} fetches location from git maybe*/}
+                 Toronto, ON, Canada &nbsp; <img width="25" height="15" src='/img/icons/common/flag-of-canada.png'/>
               </div>
               <SocialLinks />
             </Col>
