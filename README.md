@@ -1,21 +1,12 @@
 <h1 align="center">Welcome to developer-portfolio 👋</h1>
 <a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
 
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+## Software Developer Portfolio Template built with Next.js, bootstrap.
 
-<p align="center">
-  <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
-  </kbd>
-</p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+## To view a live example, **[click here](https://sajib-4414.github.io/developer-portfolio/)**.
 
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+To Edit information, `portfolio.js` to get your personal portfolio.
 
 ## Sections
 
@@ -41,7 +32,9 @@ npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
 
-## How To Use
+## To Run development server
+`there is an issue right now with paths, because of this development server does not run, but production on github runs`
+For now just run the build as production with `npm run test` and see the output from the `out` folder, it should run fine, do this until I fix.
 
 1. Fork this repoistory and clone it to your local machine.
 
@@ -61,20 +54,22 @@ $ cd developer-portfolio
 $ yarn
 ```
 
-4. Edit `portfolio.js`
+4. Edit `portfolio.js` to edit information
 
 5. Start's development server
 
 ```bash
 $ yarn dev
 ```
-
-## Linking Portfolio to Github
-
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
+## To have this on your github page running with production build
+This guide will show the project at `https://<username>.github.io/<somepathname>` url.
+1. once everything cloned and dependencies installed, run npm run deploy, what it does is, this project has a plugin gh-pages, it builds a production build,
+2. then pushes the production build in the branch(gh-pages), if the branch not there, it creates. Now github can uses the production build from gh-pages branch to show as your page. Now we need to say to github that take the production build from the gh-pages branch and show it.
+3. **Important** a Fix for jekyll themed pages, goto github your project page, visit the gh-pages branch, add a file called .nojekyll without any content, it forces the github to take static assets, otherwise your site will be of no css.
+4. open the settings page of your github repo
+5. Then goto codes and automation-> pages, select a path to visit your portfolio site(not rootpath), path should be like `https://<username>.github.io/<somepathname>`
+6. Now choose source, deploy from branch, branch name `gh-pages` , branch path root. select deploy.
+7. it will show up on the path now `https://<username>.github.io/<somepathname>` in 2-5 minutes
 
 #### Using Emojis
 
@@ -99,22 +94,3 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
 
-## For the Future
-
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-- Enable Dark Mode
-
-- Add More Sections
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
