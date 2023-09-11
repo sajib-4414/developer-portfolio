@@ -271,13 +271,13 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/sajib-4414/BlogApp-BackEnd',
   },
   {
-    name: 'Social network (Django,Flask)',
+    name: 'Facebook clone with Django and Flask',
     descBullets: ['Fullstack application with Django REST, Flask, React, RabbitMQ, MySQL, Docker, Jenkins CI/CD',
     ' Allows user to post on channels with photos, like, comment, reply'],
     github: 'https://github.com/sajib-4414/Django-Microservices-with-Flask',
   },
   {
-    name: 'Ecommerce Microfrontend(React, Vue)',
+    name: 'Event organizer with React,Vue Microfrontend',
     descBullets: ['Microfrontend architecture, React, Vue, Webpack, Module Federation, Github Actions CI/CD, AWS S3, Cloudfront.',
     'Allows admin user to upload products, and consumers to browse, add to cart, create order'],
     github: 'https://github.com/sajib-4414/react-microfront-end-with-aws-cicd',
