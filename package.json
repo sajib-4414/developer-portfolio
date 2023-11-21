@@ -2,9 +2,9 @@
   "name": "developer-portfolio",
   "version": "1.0.0",
   "description": "Software Developer Portfolio for Shamsul Arefin",
-  "homepage": "https://sajib-4414.github.io/developer-portfolio",
-  "author": "",
-  "license": "ISC",
+  "homepage":"https://sajib-4414.github.io/developer-portfolio",
+  "author": "Shamsul Arefin",
+  "license": "MIT",
   "scripts": {
        "predeploy": "yarn run build",
    "deploy": "next build && next export && gh-pages -d out",
